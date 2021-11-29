@@ -1,0 +1,41 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Components*/
+@import url("components/cards.css");
+@import url("components/img_circle.css");
+@import url("components/img_logo.css");
+@import url("components/icon.css");
+@import url("components/list.css");
+
+
+/*Other*/
+body {
+	background-color: rgb(215, 230, 240);
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(38, 68, 115);
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+

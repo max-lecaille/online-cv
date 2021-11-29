@@ -1,0 +1,99 @@
+.card-white {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	margin: 13px auto;
+	padding: 10px;
+	padding-bottom: 30px;
+}
+
+.card-center {
+		text-align: center;
+}
+
+
+.card-flex {
+	display:  flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.card-flex2 {
+	padding:  10px;
+	display:  flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.card-light {
+background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 00px 15px rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+	padding: 15px;
+	padding-top: 5px;
+}
+
+.card-light2 {
+background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 00px 15px rgba(0, 0, 0, 0.2);
+	margin-top: 10px;
+	padding: 15px;
+	padding-top: 0px;
+}
+
+.card-light3 {
+background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 00px 15px rgba(0, 0, 0, 0.2);
+	margin-top: 15px;
+	padding: 15px;
+	width: auto;
+}
+
+@media (max-width: 1900px) {
+  .card-white {
+    width: 800px;
+  }
+  .card-light {
+  	width: 340px;
+  	height: 280px;
+  }
+  .card-light2 {
+  	width: 220px;
+  	height: 190px;
+  }
+}
+
+@media (max-width: 950px) {
+  .card-white {
+    width: 600px;
+  }
+  .card-light {
+  	width: 500px;
+  	height: auto;
+  }
+  .card-light2 {
+  	width: 500px;
+  	height: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .card-white {
+    width: 400px;
+  }
+  .card-light {
+  	width: 320px;
+  	height: auto;
+  }
+  .card-light2 {
+  	width: 320px;
+  	height: auto;
+  }
+}
